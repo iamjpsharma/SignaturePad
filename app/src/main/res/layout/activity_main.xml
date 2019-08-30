@@ -8,7 +8,64 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+
+
+    <!--
+      <TextView
+          android:textStyle="italic"
+          android:textAllCaps="true"
+          android:text="@string/choose_a_colour"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+
+
+      <LinearLayout
+          android:weightSum="5"
+          android:layout_width="match_parent"
+          android:layout_height="50dp">
+
+          <Button
+              android:text="@string/red"
+              android:background="@color/red"
+              android:layout_weight="1"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"/>
+
+          <Button
+              android:text="@string/blue"
+              android:background="@color/blue"
+              android:layout_weight="1"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"/>
+
+          <Button
+              android:text="@string/green"
+              android:background="@color/green"
+              android:layout_weight="1"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"/>
+
+          <Button
+              android:text="@string/pink"
+              android:background="@color/pink"
+              android:layout_weight="1"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"/>
+
+          <Button
+              android:background="@color/yellow"
+              android:text="@string/yellow"
+              android:layout_weight="1"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"/>
+
+      </LinearLayout>
+  -->
+
+
+
     <com.github.gcacace.signaturepad.views.SignaturePad
+
         android:id="@+id/signaturePad"
         android:layout_width="match_parent"
         android:layout_height="670dp" />
@@ -17,17 +74,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <Button
+            android:background="@color/red"
             android:id="@+id/clearButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Clear" />
+            android:text="@string/clear" />
         <Button
+            android:background="@color/green"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/saveButton"
-            android:text="Save"
+            android:text="@string/save"
             android:layout_weight="1"/>
 
 

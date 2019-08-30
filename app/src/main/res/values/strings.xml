@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SignaturePad</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+    <string name="choose_a_colour">Choose A Colour</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">green</string>
+    <string name="pink">pink</string>
+    <string name="yellow">yellow</string>
 </resources>
